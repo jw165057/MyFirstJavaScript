@@ -4,11 +4,14 @@ function myFunction () {
     document.getElementById('demo').innerHTML = "Paragraph Changed";
 }
 
+//Defining variables.
 
-
+var x = 5;
+var y = 6;
+var z = x + y;
 
 //This function changes the text in the math paragraph.
 
-function mathFunction (x,y) {
-    return x*y;
+function mathFunction () {
+    document.getElementById('math').innerHTML = z;
 }
